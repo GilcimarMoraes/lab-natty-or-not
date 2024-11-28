@@ -23,7 +23,9 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 # Título do Projeto Extremamente Aesthetic ;)
 
 ## 📒 Descrição
-Este projeto utiliza visão computacional e aprendizado de máquina para contar flexões automaticamente a partir de um vídeo. A aplicação emprega a biblioteca **MediaPipe** para detecção de poses e **OpenCV** para processamento de imagens. O objetivo é explorar o uso de IA generativa para criar um assistente fitness interativo.
+Este projeto utiliza visão computacional e aprendizado de máquina para contar flexões automaticamente a partir de um vídeo.
+A aplicação emprega a biblioteca **MediaPipe** para detecção de poses e **OpenCV** para processamento de imagens.
+O objetivo é explorar o uso de IA generativa para criar um assistente fitness interativo.
 
 ## 🤖 Tecnologias Utilizadas
 - **MediaPipe**: Para detecção de poses humanas.
@@ -33,7 +35,8 @@ Este projeto utiliza visão computacional e aprendizado de máquina para contar 
 ## 🧐 Processo de Criação
 1. **Configuração do Ambiente**: Foram instaladas as bibliotecas necessárias para lidar com vídeos e a detecção de poses.
 2. **Detecção de Poses**: Utilizei o MediaPipe para rastrear posições específicas no corpo (nariz e pulso) durante a execução de flexões.
-3. **Lógica de Contagem**: Inicialmente, tentei calcular o ângulo do cotovelo, mas ajustei para medir a distância euclidiana entre o nariz e o pulso, garantindo maior precisão na contagem das flexões.
+3. **Lógica de Contagem**: Inicialmente, tentei calcular o ângulo do cotovelo, mas ajustei para medir a distância euclidiana entre o nariz
+e o pulso, garantindo maior precisão na contagem das flexões.
 4. **Renderização e Exibição**: Cada frame do vídeo é processado, desenhado e exibido com a contagem atual de flexões.
 
 
@@ -43,7 +46,9 @@ Este projeto utiliza visão computacional e aprendizado de máquina para contar 
 
 
 ## 💭 Reflexão (Opcional)
-O maior desafio foi criar uma solução para contagem de flexões. A abordagem inicial baseada em ângulos não era suficientemente precisa, mas o uso da distância euclidiana se mostrou eficaz. Este projeto demonstra o potencial da IA em aplicações de monitoramento fitness, com possibilidades futuras de integração em academias e assistentes virtuais de treino.
+O maior desafio foi criar uma solução para contagem de flexões. A abordagem inicial baseada em ângulos não era suficientemente precisa,
+mas o uso da distância euclidiana se mostrou eficaz. Este projeto demonstra o potencial da IA em aplicações de monitoramento fitness,
+com possibilidades futuras de integração em academias e assistentes virtuais de treino.
 
 ---
 
